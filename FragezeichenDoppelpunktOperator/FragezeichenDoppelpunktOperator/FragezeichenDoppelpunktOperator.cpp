@@ -13,10 +13,10 @@ int main(int argc, char* argv) {
 	cout << "y: ";
 	cin >> y;
 
-	(x < 0)? q = 4   ;
+	(x < 0) ? q = 4 : q = 1  ;
 
 
 
 
-	return EXIT_SUCCESS
+	return EXIT_SUCCESS;
 }
