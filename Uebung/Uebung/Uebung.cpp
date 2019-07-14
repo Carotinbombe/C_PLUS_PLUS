@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <ctime>
-#include <stdio.h>
-#include <Windows.h>
+#include <stdio>
+#include <Windows>
 
 using namespace std;
 
