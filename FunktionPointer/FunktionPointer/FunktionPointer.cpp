@@ -86,10 +86,13 @@ int main() {
 	(*ptr) ();
 
 	Fahrzeug* kaputt = dynamic_cast<Fahrzeug*> (RobinsFahrrad);
+	unique_ptr<Roller> ptr_uniq1(MandysRoller);
 	
+	cout << "unique Pointer zeigt auf: " << ptr_uniq1 << endl;
 	shared_ptr<Fahrrad> ptr_shr(MandysTollesTandem);
 	cout << "Es zeigen " << ptr_shr.use_count() << " Pointer\n";
 
+	cout << "unique Pointer zeigt auf: " << ptr_uniq1 << endl;
 
 	
 
